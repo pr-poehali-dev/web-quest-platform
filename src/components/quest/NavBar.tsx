@@ -9,22 +9,22 @@ const NavBar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
           <div className="bg-[#9b87f5] rounded-md p-1">
-            <Icon name="Layout" className="text-white h-6 w-6" />
+            <Icon name="BookOpen" className="text-white h-6 w-6" />
           </div>
-          <span className="text-xl font-semibold text-[#1A1F2C]">КвестМастер</span>
+          <span className="text-xl font-semibold text-[#1A1F2C]">ОбразФорум</span>
         </Link>
         <div className="hidden md:flex gap-6">
-          <Link to="/" className="text-[#1A1F2C] font-medium hover:text-[#9b87f5] transition-colors">
-            Главная
+          <Link to="/forum/linguistics" className="text-[#1A1F2C] font-medium hover:text-[#9b87f5] transition-colors">
+            Лингвистика
           </Link>
-          <Link to="/quests" className="text-[#1A1F2C] font-medium hover:text-[#9b87f5] transition-colors">
-            Квесты
+          <Link to="/forum/worldview" className="text-[#1A1F2C] font-medium hover:text-[#9b87f5] transition-colors">
+            Мировоззрение
           </Link>
-          <Link to="/create" className="text-[#1A1F2C] font-medium hover:text-[#9b87f5] transition-colors">
-            Создать
+          <Link to="/forum/culture" className="text-[#1A1F2C] font-medium hover:text-[#9b87f5] transition-colors">
+            Культурные навыки
           </Link>
-          <Link to="/about" className="text-[#1A1F2C] font-medium hover:text-[#9b87f5] transition-colors">
-            О проекте
+          <Link to="/forum/emotional" className="text-[#1A1F2C] font-medium hover:text-[#9b87f5] transition-colors">
+            Эмоционально-поведенческие
           </Link>
         </div>
         <div>

@@ -22,19 +22,24 @@ const Feature = ({ icon, title, description }: FeatureProps) => {
 const HowItWorksSection = () => {
   const features: FeatureProps[] = [
     {
-      icon: "Search",
-      title: "Найдите квест",
-      description: "Выбирайте из множества квестов разной тематики и уровня сложности"
+      icon: "BookText",
+      title: "Выберите форум",
+      description: "Определите направление развития, которое интересует вас больше всего"
     },
     {
-      icon: "Puzzle",
-      title: "Решайте задания",
-      description: "Выполняйте увлекательные задания, решайте головоломки и загадки"
+      icon: "MessageSquare",
+      title: "Участвуйте в обсуждениях",
+      description: "Выполняйте задания, делитесь мнением и получайте обратную связь от сообщества"
     },
     {
-      icon: "Trophy",
-      title: "Получайте награды",
-      description: "Зарабатывайте очки, разблокируйте достижения и соревнуйтесь с другими"
+      icon: "GraduationCap",
+      title: "Развивайте навыки",
+      description: "Отслеживайте свой прогресс и совершенствуйте ключевые компетенции"
+    },
+    {
+      icon: "Users",
+      title: "Сообщество единомышленников",
+      description: "Общайтесь с людьми, заинтересованными в саморазвитии и обучении"
     }
   ];
 
@@ -44,11 +49,11 @@ const HowItWorksSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-2 text-[#1A1F2C]">Как это работает</h2>
           <p className="text-[#8E9196] max-w-2xl mx-auto">
-            Создавайте квесты с увлекательными заданиями или проходите квесты, созданные другими пользователями
+            Участвуйте в образовательных форумах и развивайте свои навыки через выполнение заданий и взаимодействие с сообществом
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <Feature 
               key={index} 

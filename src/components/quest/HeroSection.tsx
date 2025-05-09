@@ -7,18 +7,18 @@ const HeroSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-2xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            Создавайте и проходите увлекательные веб-квесты
+            Образовательные форумы для всестороннего развития
           </h1>
           <p className="text-lg mb-8 text-gray-300">
-            Платформа для создания интерактивных веб-квестов с заданиями разной сложности. 
-            Обучайтесь играя, решайте головоломки и развивайте навыки.
+            Платформа с заданиями по четырем ключевым направлениям: лингвистика, 
+            мировоззрение, культурные навыки и эмоционально-поведенческие характеристики.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" className="bg-[#9b87f5] hover:bg-[#8574d8]">
-              Начать свой квест
+              Начать обучение
             </Button>
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-[#1A1F2C]">
-              Смотреть квесты
+              Смотреть форумы
             </Button>
           </div>
         </div>
